@@ -22,6 +22,6 @@ Clusters produced by both methods are statistically indistinguishable.
 $ python ClusterDistMatrix.py -i ./unittest/rmsd.txt.tgz
 ```
 
-### Reference:
+## Reference:
 * DBSCAN: https://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html
 * Gromacs: http://manual.gromacs.org/documentation/2018/onlinehelp/gmx-cluster.html
