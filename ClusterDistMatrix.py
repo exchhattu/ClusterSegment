@@ -81,7 +81,7 @@ def read_content(ts_lines = []):
   
 def cluster_dm(ar_dm, fo_rmsd, oj_opened):
   """
-    Cluster given distance matrix and predefined threshold
+    Cluster given distance matrix using predefined threshold
 
     params:
       ar_dm:    distance matrix (nxn) 
