@@ -1,7 +1,7 @@
 
 # Segment clustering reference to other segment
-Cluster a segment(domain) by superposing different part(domain) of a protein
-structure. 
+Cluster a segment (domain) of a protein by superposing different part (domain) of the protein
+using their three-dimensional coordinates. 
 
 ## Requirement:
 * mod9.21
