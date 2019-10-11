@@ -1,7 +1,7 @@
 
-
-# Distinct segment clustering
-Cluster a segment(domain) by superposing different parts(domains). 
+# Segment clustering reference to other segment
+Cluster a segment(domain) by superposing different part(domain) of a protein
+structure. 
 
 ## Requirement:
 * mod9.21
@@ -9,8 +9,10 @@ Cluster a segment(domain) by superposing different parts(domains).
 * Scikit-learn
 
 ## Experiment:
-* Required distances were computed out using [mod9.21](https://salilab.org/modeller/9.21/release.html). 
-* Subsequent clustering was performed using sklearn.cluster.DBSCAN 
+* Required distances were computed using [mod9.21](https://salilab.org/modeller/9.21/release.html). 
+* Subsequent clustering was performed using sklearn.cluster.DBSCAN
+  (Density-based spatial clustering of applications with noise ). 
+* Precomputed distance matrix using mod9.21 was inputted in DBSCAN.
 
 ## Test:
 Clusters computed using DBSCAN were further matched with Gromacs for 
